@@ -115,16 +115,19 @@ section.container {
 .img1{
     background: url(./asset/notebook-1850613.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .img2{
     background: url(./asset/ocean-3605547_1920.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .img3{
     background: url(./asset/tree-736885_1920.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .title {
@@ -135,5 +138,12 @@ section.container {
     border-radius: 10px;
     letter-spacing: 1rem;
     text-transform: uppercase;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
 }
 
