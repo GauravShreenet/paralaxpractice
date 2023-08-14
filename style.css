@@ -98,15 +98,33 @@ section.container {
 }
 
 /* ================== images  */
-.img1,
+/* .img1,
 .img2,
-.img3 {
-    background: red;
-    height: 60vh;
+.img3  
+*/
+[class^="img"]
+{
+    /* background: red; */
+    height: 50vw;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img1{
+    background: url(./asset/notebook-1850613.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.img2{
+    background: url(./asset/ocean-3605547_1920.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.img3{
+    background: url(./asset/tree-736885_1920.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .title {
@@ -115,5 +133,7 @@ section.container {
     font-size: 2rem;
     padding: 1.5rem 5rem;
     border-radius: 10px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
 }
 
